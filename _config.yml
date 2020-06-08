@@ -16,7 +16,7 @@ navbar-links:
     - Filter Tags: "tags"
     - Text Search: "search"
   Projects: "projects"
-  About/Contact: "aboutme"
+  About Me/Contact: "about"
 
 
 # --- Logo --- #
