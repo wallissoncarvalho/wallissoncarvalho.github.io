@@ -58,7 +58,7 @@ I'm also available to start new projects, so feel free to <a href="/about">conta
 <ul style="list-style: none;">
 <li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HidroData" target="_blank">HidroData</a> -
 Repository dedicated to work Brazilian hydrometeorological data, which provides connection to the ANA database (<b>hidro</b>web).</li>
-<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HydroAnalyses" target="_blank">HidroAnalyses</a> -
+<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HydroAnalyses" target="_blank">HydroAnalyses</a> -
 Repository dedicated to performing data pre-processing, graph plotting some other analysis.</li>
 </ul>
 

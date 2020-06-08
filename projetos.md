@@ -56,7 +56,7 @@ Meu trabalho nesse projeto está associado com os tópicos a seguir.</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HidroData" target="_blank">HidroData</a> -
 Repositório dedicado ao uso de dados hidrológicos brasileiros, baseado na conexão com o banco de dados da Agência Nacional de Águas (<b>hidro</b>web).</li>
-<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HydroAnalyses" target="_blank">HidroAnalyses</a> -
+<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HydroAnalyses" target="_blank">HydroAnalyses</a> -
 Repositório dedicado à realização de pré-processamento de dados, platagem de gráficos e algumas outras análises.</li>
 </ul>
 
