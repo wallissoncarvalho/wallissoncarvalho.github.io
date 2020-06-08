@@ -4,14 +4,14 @@ title: Sobre mim
 subtitle: Somente o essencial
 ---
 <div style="text-align: center">
-Voltar para a versão em <a href="/aboutme">inglês</a>.
+Voltar para a versão em <a href="/about">inglês</a>.
 </div>
 
 Sou um profissional motivado com experiência de trabalho em equipe e estou sempre em busca de oportunidades de crescimento.
 Inclinado às áreas de Recursos Hídricos, Ciência de Dados e Estatística. 
 
 ### <span class="fa fa-code about-icon"></span> Projetos
-Na página de <a href="/projects">projetos</a> você poderá ver alguns dos meus trabalhos desenvolvidos e no que estou trabalhando atualmente.
+Na página de <a href="/projetos">projetos</a> você poderá ver alguns dos meus trabalhos desenvolvidos e no que estou trabalhando atualmente.
 Ou, você pode ter acesso ao meu <a href="/cv">currículo</a>.
 
 ### <span class="fa fa-graduation-cap"></span> Formação
