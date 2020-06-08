@@ -6,6 +6,7 @@ subtitle: O que eu fiz ou o que estou fazendo!
 <div style="text-align: center;margin-bottom: 25px">
 Aqui estão alguns dos meus projetos pessoais.<br>
 Estou disponível para iniciar novos projetos, então sinta-se à vontade para entrar em <a href="/sobremim">contato comigo</a>.
+Para ver a versão dessa página em inglês, <a href="/about">clique aqui</a>.
 </div>
 
 <div style="text-align: center;margin-bottom: 10px">

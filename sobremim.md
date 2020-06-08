@@ -4,7 +4,7 @@ title: Sobre mim
 subtitle: Somente o essencial
 ---
 <div style="text-align: center">
-Voltar para a versão em <a href="/about">inglês</a>.
+Para ver a versão dessa página em inglês, <a href="/about">clique aqui</a>.
 </div>
 
 Sou um profissional motivado com experiência de trabalho em equipe e estou sempre em busca de oportunidades de crescimento.

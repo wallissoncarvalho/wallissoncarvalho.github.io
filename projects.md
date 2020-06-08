@@ -6,6 +6,7 @@ subtitle: What I've done or I'm doing!
 <div style="text-align: center;margin-bottom: 25px">
 This is a collection of some personal projects.<br>
 I'm also available to start new projects, so feel free to <a href="/about">contact me</a>  if you'd like to work together.
+For this page in <b>portuguese version</b> click <a href="/projetos">here</a>.
 </div>
 
 <div style="text-align: center;margin-bottom: 10px">
