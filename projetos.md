@@ -13,7 +13,7 @@ Estou disponível para iniciar novos projetos, então sinta-se à vontade para e
 </h4>
 <p style="margin:0px;font-size: 14px">(2019 - Present)</p>
 </div>
-<p style="margin:15px">A plataforma é um Sistema de Suporte a Decisão voltado aos recursos hídricos inteiramente online, que incluem um 
+<p style="margin:15px">A plataforma é um Sistema de Suporte a Decisão voltado aos recursos hídricos inteiramente online, que inclue um 
 conjunto de ferramentas de código aberto baseadas em bibliotecas do python. São elas:</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-table" aria-hidden="true"></i> Gerenciador de dados hidrológicos com plotagem gráfica e análise estatística;</li>
@@ -29,7 +29,7 @@ conjunto de ferramentas de código aberto baseadas em bibliotecas do python. Sã
 <ul style="list-style: none;">
 <li><i class="fa fa-desktop" aria-hidden="true"></i> Customização de interfaces gráficas usando C# e .NET para interação do usuário com o sistema;</li>
 <li><i class="fa fa-database" aria-hidden="true"></i> Desenvolvimento de um banco de dados considerando dados geoespaciais e séries temporais;</li>
-<li><i class="fa fa-tint" aria-hidden="true"></i> Validação da aplicação do Sistema de Suporte à Decisão de Outorgas nas bacias hidrográficas..</li>
+<li><i class="fa fa-tint" aria-hidden="true"></i> Validação da aplicação do Sistema de Suporte à Decisão de Outorgas nas bacias hidrográficas.</li>
 </ul>
 
 <div style="text-align: center;margin-bottom: 10px;margin-top: 50px">
