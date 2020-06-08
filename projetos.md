@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Projetos
+title: Meus Projetos
 subtitle: O que eu fiz ou o que estou fazendo!
 ---
 <div style="text-align: center;margin-bottom: 25px">
+Para ver a versão dessa página em <b>inglês</b>, <a href="/projects">clique aqui</a>.<br>
+<br>
 Aqui estão alguns dos meus projetos pessoais.<br>
 Estou disponível para iniciar novos projetos, então sinta-se à vontade para entrar em <a href="/sobremim">contato comigo</a>.
-Para ver a versão dessa página em inglês, <a href="/about">clique aqui</a>.
 </div>
 
 <div style="text-align: center;margin-bottom: 10px">
@@ -14,8 +15,8 @@ Para ver a versão dessa página em inglês, <a href="/about">clique aqui</a>.
 </h4>
 <p style="margin:0px;font-size: 14px">(2019 - Present)</p>
 </div>
-<p style="margin:15px">A plataforma é um Sistema de Suporte a Decisão voltado aos recursos hídricos inteiramente online, que inclue um 
-conjunto de ferramentas de código aberto baseadas em bibliotecas do python. São elas:</p>
+<p style="margin:15px">Cojunto de ferramentas web de código aberto, baseadas em bibliotecas python, para trabalhar com dados de séries 
+temporais de medições hidrológicas, e que incluem os seguintes recursos: São elas:</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-table" aria-hidden="true"></i> Gerenciador de dados hidrológicos com plotagem gráfica e análise estatística;</li>
 <li><i class="fa fa-cogs" aria-hidden="true"></i> Modelagem hidrológica;</li>
@@ -27,6 +28,7 @@ conjunto de ferramentas de código aberto baseadas em bibliotecas do python. Sã
 </h4>
 <p style="margin:0px;font-size: 14px">(2019 - Present)</p>
 </div>
+<p style="margin: 15px">O objetivo geral deste projeto é melhorar a eficiência de procedimentos de gestão de outorgas de águas superficiais através da customização e operacionalização de um Sistema de Suporte à Decisão (SSD) de outorgas.</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-desktop" aria-hidden="true"></i> Customização de interfaces gráficas usando C# e .NET para interação do usuário com o sistema;</li>
 <li><i class="fa fa-database" aria-hidden="true"></i> Desenvolvimento de um banco de dados considerando dados geoespaciais e séries temporais;</li>
@@ -38,6 +40,8 @@ conjunto de ferramentas de código aberto baseadas em bibliotecas do python. Sã
 </h4>
 <p style="margin:0px;font-size: 14px">(2019 - Present)</p>
 </div>
+<p style="margin:15px">O objetivo do projecto GlobalHydroPressure é fornecer suporte global baseado em modelagens para avaliar e quantificar as pressões hidrológicas fundamentais em bacias hidrográficas ao redor do mundo.
+Meu trabalho nesse projeto está associado com os tópicos a seguir.</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-cogs" aria-hidden="true"></i> Modelagem hidrológica e hidrodinâmica com foco em inundações de uma bacia localizada nos estados de Alagoas e Pernambuco;</li>
 <li><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> Alertas hidrológicos baseados no nível da água para secas e enchentes;</li>
@@ -45,9 +49,10 @@ conjunto de ferramentas de código aberto baseadas em bibliotecas do python. Sã
 </ul>
 
 <div style="text-align: center;margin-bottom: 10px;margin-top: 50px">
-<h4>Repositórios do GitHub - Todos eles usam Python!
+<h4>Repositórios do GitHub
 </h4>
 </div>
+<p style="margin:15px">Os repositórios tem como principal foco o trabalho com dados hidrológicos utilizando a linguagem de programação Python.</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HidroData" target="_blank">HidroData</a> -
 Repositório dedicado ao uso de dados hidrológicos brasileiros, baseado na conexão com o banco de dados da Agência Nacional de Águas (<b>hidro</b>web).</li>
@@ -56,6 +61,7 @@ Repositório dedicado à realização de pré-processamento de dados, platagem d
 </ul>
 
 #### Outros trabalhos
+<p style="margin:15px">Estes são alguns tópicos de projetos particulares nos quais eu já trabalhei.</p>
 <ul style="list-style: none;">
 <li><i class="fa fa-check" aria-hidden="true"></i> Estudos de disponibilidade hídrica e de autodepuração para lançamento de efluentes;</li>
 <li><i class="fa fa-check" aria-hidden="true"></i> Modelagem hidrodinâmica em Sistema Estuarino Lagunar;</li>

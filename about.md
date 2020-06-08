@@ -4,7 +4,7 @@ title: About me
 subtitle: Only the essentials
 ---
 <div style="text-align: center">
-For this page in <b>portuguese version</b> click <a href="/sobremim">here</a>.
+For this page in <b>Portuguese</b> version click <a href="/sobremim">here</a>.
 </div>
 
 I'm a self-motivated and inspired team player who is always looking for opportunities for growth.
