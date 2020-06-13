@@ -23,7 +23,7 @@ I'm also available to start new projects, so feel free to <a href="/about">conta
 </ul>
 
 <div style="text-align: center;margin-bottom: 10px;margin-top: 50px">
-<h4>Decision support system GIS based for superficial water grants
+<h4>Decision support system GIS-based for superficial water grants
 </h4>
 <p style="margin:0px;font-size: 14px">(2019 - Present)</p>
 </div>
