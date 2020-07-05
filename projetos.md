@@ -49,15 +49,14 @@ Meu trabalho nesse projeto está associado com os tópicos a seguir.</p>
 </ul>
 
 <div style="text-align: center;margin-bottom: 10px;margin-top: 50px">
-<h4>Repositórios do GitHub
+<h4>Pacotes do Pyhton
 </h4>
 </div>
-<p style="margin:15px">Os repositórios tem como principal foco o trabalho com dados hidrológicos utilizando a linguagem de programação Python.</p>
+<p style="margin:15px">Os pacotes tem como principal foco o trabalho com dados hidrológicos utilizando a linguagem de programação Python.</p>
 <ul style="list-style: none;">
-<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HidroData" target="_blank">HidroData</a> -
-Repositório dedicado ao uso de dados hidrológicos brasileiros, baseado na conexão com o banco de dados da Agência Nacional de Águas (<b>hidro</b>web).</li>
-<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="https://github.com/wallissoncarvalho/HydroAnalyses" target="_blank">HydroAnalyses</a> -
-Repositório dedicado à realização de pré-processamento de dados, platagem de gráficos e algumas outras análises.</li>
+<li><i class="fa fa-folder-open" aria-hidden="true"></i> <a href="/HydroBr" target="_blank">HydroBr</a> -
+Pacote dedicado o trabalho com dados hidrológicos brasileiros, baseado na conexão com diferentes bancos de dados hidrometeorológicos.</li>
+
 </ul>
 
 #### Outros trabalhos
