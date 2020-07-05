@@ -3,7 +3,14 @@ layout: page
 title: HydroBr
 subtitle: HydroBr is an open-source package to work with Brazilian hydrometeorological time series.
 ---
+<h3 style='text-align: center'>[PyPi](https://pypi.org/project/hydrobr/)
+ 
+ [![DOI](https://zenodo.org/badge/276715050.svg)](https://zenodo.org/badge/latestdoi/276715050)
+ [![PythonVersion](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)
+</h3>
+
 #Examples of Usage Page
+
 Here I'll show you how to use some of HydroData's functions. If you have any doubts about the functions/methods
 available, you use the python's help function or read the
 [docs page](https://github.com/wallissoncarvalho/hydrobr/blob/master/README.md#modules---documentation).
