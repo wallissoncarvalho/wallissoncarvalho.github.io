@@ -12,6 +12,7 @@ author: Wallisson Moreira de Carvalho
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  HydroBr: "HydroBr"
   Search:
     - Filter Tags: "tags"
     - Text Search: "search"
