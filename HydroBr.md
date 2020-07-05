@@ -13,9 +13,13 @@ Here is an example of usage of the functions that provides data from the Brazili
 (Agência Nacional de Águas - ANA) database.
 
 #### Importing the package
+
+<br>
+
 ```python
 import hydrobr
 ```
+<br>
 
 ### Getting data from ANA
 #### List of stations
@@ -43,8 +47,7 @@ list_stations = hydrobr.get_data.ANA.list_prec_stations()
 list_stations.head() 
 ```
 <br>
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-<div>
+<div class="table-responsive">
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -173,7 +176,6 @@ list_stations.head()
   </tbody>
 </table>
 </div>
-</div>
 
 <br>
 
@@ -196,7 +198,8 @@ In the example below, I will plot the flow station distribution in the state of 
 ```python
 from plotly.offline import plot
 map_box_access_token = 'your-mapbox-token-access-here'
-flow_stations_list = hydrobr.get_data.ANA.list_flow_stations(state='RIO DE JANEIRO')
+flow_stations_list = hydrobr.get_data.ANA.list_flow_stations(
+                                        state='RIO DE JANEIRO')
 ```
 <br>
 
@@ -209,7 +212,7 @@ plot(spatial_fig,filename='spatial' + '.html')
 ```
 The `.html` figure output:
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+<div class="row">
       <div class="embed-responsive embed-responsive-4by3">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/spatial_stations"></iframe>
       </div>
@@ -293,7 +296,7 @@ plot(gantt_fig,filename='gantt' + '.html')
 ```
 The `.html` figure output:
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+<div class="row">
       <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/gantt_ana"></iframe>
       </div>
