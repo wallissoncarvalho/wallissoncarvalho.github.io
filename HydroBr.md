@@ -45,7 +45,7 @@ list_stations = hydrobr.get_data.ANA.list_prec_stations()
 list_stations.head() 
 ```
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -177,7 +177,8 @@ list_stations.head()
 
 
 ```python
-stations_code = list_stations.Code.to_list()[:5] # Getting the first five stations code as a list
+# Getting the first five stations code as a list
+stations_code = list_stations.Code.to_list()[:5] 
 ```
 
 
@@ -206,7 +207,7 @@ plot(spatial_fig,filename='spatial' + '.html')
 The `.html` figure output:
 
 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;">
-      <div class="embed-responsive embed-responsive-1by1">
+      <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/spatial_stations"></iframe>
       </div>
 </div>
@@ -285,7 +286,7 @@ plot(gantt_fig,filename='gantt' + '.html') #To plot and save the gantt plot as h
 The `.html` figure output:
 
 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;">
-      <div class="embed-responsive embed-responsive-2by1">
+      <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/gantt_ana"></iframe>
       </div>
 </div>
