@@ -44,7 +44,8 @@ list_stations = hydrobr.get_data.ANA.list_prec_stations()
 # To show the first five rows of the data
 list_stations.head() 
 ```
-<div>
+
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -174,9 +175,11 @@ list_stations.head()
 </table>
 </div>
 
+
 ```python
 stations_code = list_stations.Code.to_list()[:5] # Getting the first five stations code as a list
 ```
+
 
 If we need to know about the spatial distribution from a list of stations, we can use the
 `hydrobr.Plot.spatial_stations` function.
@@ -218,12 +221,14 @@ HydroBr has three functions to gate data from the ANA database:
 - `hydrobr.get_data.ANA.stage_data` - To get the stage data from a list of flow/stage stations
 
 
+
 ```python
 data_stations = hydrobr.get_data.ANA.prec_data(stations_code) #Gettin the data
 ```
 
     100%|████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:13<00:00,  2.62s/it]
     
+
 
 
 ```python
@@ -243,6 +248,7 @@ data_stations.info()
      4   00047005  10212 non-null  float64
     dtypes: float64(5)
     memory usage: 1.0 MB
+   
     
 
 In the last command, we used the pandas' `info` function, and it returns basic information about the data that we got.
@@ -258,6 +264,7 @@ Thus it is possible to configure the layout of the plot.
 ```python
 from plotly.offline import plot
 ```
+
 
 
 ```python
@@ -278,7 +285,7 @@ plot(gantt_fig,filename='gantt' + '.html') #To plot and save the gantt plot as h
 The `.html` figure output:
 
 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;">
-      <div class="embed-responsive embed-responsive-1by1">
+      <div class="embed-responsive embed-responsive-2by1">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/gantt_ana"></iframe>
       </div>
 </div>
