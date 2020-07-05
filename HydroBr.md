@@ -5,7 +5,7 @@ subtitle: HydroBr is an open-source package to work with Brazilian hydrometeorol
 ---
 
 <h3 style='text-align: center'>
-  <a href="https://pypi.org/project/hydrobr/">PyPi Page</a>
+  <a href="https://pypi.org/project/hydrobr/">PyPi</a>
   <br>
   <a href="https://zenodo.org/badge/latestdoi/246373223">
   <img src="https://zenodo.org/badge/246373223.svg" alt="DOI"></a>
