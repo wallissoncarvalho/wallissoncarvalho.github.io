@@ -18,8 +18,6 @@ import hydrobr
 ```
 
 ### Getting data from ANA
-### Getting data from ANA
-
 #### List of stations
 
 HydroBr has two functions for list of stations from ANA:
@@ -44,7 +42,8 @@ list_stations = hydrobr.get_data.ANA.list_prec_stations()
 # To show the first five rows of the data
 list_stations.head() 
 ```
-
+<br>
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -174,7 +173,9 @@ list_stations.head()
   </tbody>
 </table>
 </div>
+</div>
 
+<br>
 
 ```python
 # Getting the first five stations code as a list
@@ -197,6 +198,8 @@ from plotly.offline import plot
 map_box_access_token = 'your-mapbox-token-access-here'
 flow_stations_list = hydrobr.get_data.ANA.list_flow_stations(state='RIO DE JANEIRO')
 ```
+<br>
+
 ```python
 #Get the spatial stations plot fig
 spatial_fig=hydrobr.Plot.spatial_stations(flow_stations_list,map_box_access_token)
@@ -206,12 +209,13 @@ plot(spatial_fig,filename='spatial' + '.html')
 ```
 The `.html` figure output:
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;">
-      <div class="embed-responsive embed-responsive-16by9">
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <div class="embed-responsive embed-responsive-4by3">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/spatial_stations"></iframe>
       </div>
 </div>
 
+<br>
 
 #### Stations' Data
 
@@ -224,12 +228,16 @@ HydroBr has three functions to gate data from the ANA database:
 
 
 ```python
-data_stations = hydrobr.get_data.ANA.prec_data(stations_code) #Gettin the data
+#Gettin the data
+data_stations = hydrobr.get_data.ANA.prec_data(stations_code) 
 ```
 
-    100%|████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:13<00:00,  2.62s/it]
+    100%|██████████████████████████████████| 5/5 [00:13<00:00,  2.62s/it]
     
 
+
+
+<br>
 
 
 ```python
@@ -266,7 +274,7 @@ Thus it is possible to configure the layout of the plot.
 from plotly.offline import plot
 ```
 
-
+<br>
 
 ```python
 gantt_fig = hydrobr.Plot.gantt(data_stations) #Get the Gantt Fig
@@ -280,12 +288,12 @@ gantt_fig.update_layout(
     yaxis_title = 'Station Code',
     font=dict(family="Courier New, monospace", size=12))
 
-#Plotting
-plot(gantt_fig,filename='gantt' + '.html') #To plot and save the gantt plot as html
+#To plot and save the gantt plot as html
+plot(gantt_fig,filename='gantt' + '.html') 
 ```
 The `.html` figure output:
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1" style="text-align: center; margin-top: 150px;">
+<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item"  src="https://wallissoncarvalho.github.io/assets/html_posts/gantt_ana"></iframe>
       </div>
