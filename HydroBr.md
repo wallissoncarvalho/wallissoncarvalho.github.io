@@ -2,6 +2,8 @@
 layout: page
 title: HydroBr
 subtitle: HydroBr is an open-source package to work with Brazilian hydrometeorological time series.
+gh-repo: wallissoncarvalho/hydrobr
+gh-badge: [star, watch, fork, follow]
 ---
 
 <h3 style='text-align: center'>
